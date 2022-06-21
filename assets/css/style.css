@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #2C2C2C;
+}
+
+.container{
+    max-width: 1205px;
+    height: fit-content;
+    margin: auto;
+}
+
+.header-area{
+    padding-top: 12px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-area--left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-area--left h1{
+    font-size: 24px;
+}
+
+.header-area--left ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-area--left ul,
+.header-area--left li{
+    list-style-type: none;
+}
+
+.header-area--left li{
+    margin-left: 40px;
+}
+
+.header-area--left li a{
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-area--right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-area--right input{
+    width: 340px;
+    color: #fff;
+    outline: 0;
+    background-color: #2C2C2C;
+    border:0;
+}
+
+.header-area--right input::placeholder{
+    color: #FFF;
+}
+
+.header-area--right .search-icon{
+    display: inline-block;
+    color: red;
+    margin-left: -40px;
+}
+
+.header-area--right form{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.search-icon img{
+    filter: invert(100%);
+    width: 15px;
+    font-size: 14px;
+}

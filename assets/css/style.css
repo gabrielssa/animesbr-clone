@@ -160,6 +160,20 @@ body{
     filter: brightness(60%);
 }
 
+.releases--content--card .grade{
+    position: relative;
+    top: -30px;
+    left: 10px;
+    z-index: 99;
+    font-size: 14px;
+}
+
+.releases--content--card .grade span{
+    background-color: #00000093;
+    padding: 1px 3px;
+    border-radius: 30%;
+}
+
 .releases--content--card a{
     display:inline-block;
     font-weight: 400;

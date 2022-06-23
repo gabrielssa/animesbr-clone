@@ -112,6 +112,7 @@ body{
 #geral{
     display: flex;
     flex-direction: row;
+    background-color: black;
 }
 
 .geral-left{
@@ -130,7 +131,8 @@ body{
 
 .releases{
     padding: 20px 25px 0px 25px;
-
+    border-bottom: 1px solid #2C2C2C;
+    padding-bottom: 25px;
 }
 
 .releases--head{

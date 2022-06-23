@@ -11,6 +11,16 @@ body{
     background-color: #2C2C2C;
 }
 
+.button{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    background-color: #FF744F;
+    padding: 2px 7px;
+    font-weight: 700;
+    height: 14px;
+}
+
 .container{
     max-width: 1205px;
     height: fit-content;
@@ -54,6 +64,10 @@ body{
     font-size: 14px;
 }
 
+.header-area--left li a:hover{
+    color:#FF744F;
+}
+
 .header-area--right{
     display: flex;
     flex-direction: row;
@@ -93,4 +107,67 @@ body{
     filter: invert(100%);
     width: 15px;
     font-size: 14px;
+}
+
+#geral{
+    display: flex;
+    flex-direction: row;
+}
+
+.geral-left{
+    flex: 2;
+}
+
+.geral-right{
+    height: 300px;
+    flex: 1;
+}
+
+.geral-left h2{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.releases{
+    padding: 20px 25px 0px 25px;
+
+}
+
+.releases--head{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.releases--content--cards{
+    display:flex;
+    flex-direction: row;
+}
+
+.releases--content--card{
+    width: 20%;
+}
+
+.releases--content--card img{
+    width: 90%;
+}
+
+.releases--content--card img:hover{
+    filter: brightness(60%);
+}
+
+.releases--content--card a{
+    display:inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    width: 90%;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.releases--content--card a:hover{
+    color:#FF744F;
+    cursor: pointer;
 }
